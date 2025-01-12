@@ -1,0 +1,48 @@
+.sec__01 {
+  width: 100vw;
+  height: 40vh;
+
+  background-color: var(--main--bg--color);
+
+  color: var(--main--font--color);
+}
+
+.sec__01 > .contents {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+
+  padding: 100px 0;
+  position: relative;
+}
+
+.sec__01 > .contents > .about {
+  font-family: "IAMAPLAYER";
+  font-size: 20px;
+
+  position: absolute;
+  top: 5rem;
+}
+
+.about__text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: end;
+
+  font-family: "Cafe24Ohsquareair";
+  font-size: 25px;
+  line-height: 25px;
+}
+
+.about__text > .about__intro {
+  font-family: "IAMAPLAYER";
+  font-size: 70px;
+  margin-bottom: 30px;
+}
+
+.about__text > span > .text__highlight {
+  font-size: 30px;
+  color: var(--sub--highlight--color);
+  padding: 0 5px;
+}

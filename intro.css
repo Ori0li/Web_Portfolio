@@ -1,0 +1,96 @@
+.intro__top {
+  width: 100vw;
+  height: 100vh;
+  padding: 0 100px;
+
+  background-color: var(--main--bg--color);
+  font-family: "IAMAPLAYER";
+
+  color: var(--main--font--color);
+}
+
+.intro__top > .contents {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.intro {
+  display: flex;
+  justify-content: space-between;
+  padding: 75px 0;
+}
+
+.course-name {
+  font-size: 25px;
+  padding-right: 100px;
+
+  display: flex;
+  gap: 20px;
+}
+
+.navLink {
+  width: 60%;
+}
+
+.linkCard {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.navLink > .linkCard > li {
+  border-top: 2px solid var(--sub--title--color);
+  padding-top: 20px;
+
+  width: 50%;
+
+  transition: all 0.4s;
+}
+
+.navLink > .linkCard > li:hover {
+  border-top: 3px solid var(--sub--highlight--color);
+  transform: translate(50px 100px);
+}
+
+.main__cont {
+  width: 100%;
+  max-width: 1400px;
+  display: flex;
+  gap: 150px;
+
+  position: absolute;
+  bottom: 4rem;
+}
+
+.main__cont--left {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+}
+
+.main__cont--left > .icon {
+  font-size: 250px;
+  text-shadow: 10px 10px 10px rgba(101, 77, 196, 0.51);
+}
+.main__cont--left > .text {
+  transform: rotate(270deg);
+
+  position: absolute;
+  left: 0;
+  bottom: 8%;
+}
+
+.main__cont--title {
+  font-size: 150px;
+  text-shadow: 10px 10px 10px rgba(101, 77, 196, 0.51);
+}
