@@ -4,6 +4,8 @@ footer {
   background-color: var(--main--bg--color);
   color: var(--sub--footer--color);
   font-family: "IAMAPLAYER";
+
+  padding: 0 100px;
 }
 
 footer > .contents {

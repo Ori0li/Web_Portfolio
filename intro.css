@@ -59,9 +59,13 @@
   transform: translate(50px 100px);
 }
 
-.main__cont {
+.main__cont__area {
   width: 100%;
   max-width: 1400px;
+  margin: 0 auto;
+}
+
+.main__cont {
   display: flex;
   gap: 150px;
 
@@ -93,4 +97,25 @@
 .main__cont--title {
   font-size: 150px;
   text-shadow: 10px 10px 10px rgba(101, 77, 196, 0.51);
+}
+
+@media screen and (max-width: 768px) {
+  .course-name {
+    display: none;
+  }
+
+  .main__cont--left > .text {
+    display: none;
+  }
+
+  .main__cont {
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+
+    align-items: center;
+  }
+  .main__cont--title {
+    font-size: 100px;
+  }
 }

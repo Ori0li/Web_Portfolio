@@ -2,6 +2,8 @@
   width: 100vw;
   height: 40vh;
 
+  padding: 0 100px;
+
   background-color: var(--main--bg--color);
 
   color: var(--main--font--color);
@@ -45,4 +47,23 @@
   font-size: 30px;
   color: var(--sub--highlight--color);
   padding: 0 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .sec__01 > .contents > .about {
+    display: none;
+  }
+
+  .about__text {
+    font-size: 20px;
+    align-items: start;
+  }
+
+  .about__text > .about__intro {
+    font-size: 40px;
+  }
+
+  .about__text > span > .text__highlight {
+    font-size: 25px;
+  }
 }
